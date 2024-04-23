@@ -7,7 +7,7 @@ const { isMenuActive } = useApp()
 </script>
 
 <template>
-  <div class="container mx-auto">
+  <header class="container mx-auto">
     <div class="navbar shadow-sm">
       <div class="navbar-start">
         <RouterLink to="/" class="btn btn-ghost text-xl">Vue Store</RouterLink>
@@ -80,5 +80,5 @@ const { isMenuActive } = useApp()
         </div>
       </div>
     </div>
-  </div>
+  </header>
 </template>
